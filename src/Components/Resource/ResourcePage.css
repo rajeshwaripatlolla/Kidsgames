@@ -1,0 +1,73 @@
+.resources-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.resources-header h1 {
+  text-align: center;
+  color: #333;
+}
+
+.resources-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.resource {
+  margin-bottom: 30px;
+}
+
+.resource h3 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.resource p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.resource-video {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 10px;
+}
+
+.resources-pdf-section {
+  margin-top: 30px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.pdf-resource {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-resource h4 {
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.pdf-resource p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.download-link {
+  font-size: 1rem;
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}

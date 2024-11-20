@@ -1,0 +1,84 @@
+/* General Styles */
+.logout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .logout-card {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .logout-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .logout-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-redirect-btn {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-redirect-btn:hover {
+    background-color: #cc5200;
+  }
+  
+  /* Theme-Specific Styles */
+  .light .logout-container {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .light .logout-card {
+    background-color: #ffffff;
+  }
+  
+  .dark .logout-container {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark .logout-card {
+    background-color: #1e1e1e;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .logout-card {
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  
+    .logout-card h2 {
+      font-size: 1.5rem;
+    }
+  
+    .logout-card p {
+      font-size: 0.9rem;
+    }
+  
+    .login-redirect-btn {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  
